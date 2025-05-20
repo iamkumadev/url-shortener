@@ -1,30 +1,33 @@
-# URL Shortener
+🔗 PHP URL Shortener
+A lightweight URL shortening service built with PHP and MySQL. Converts long URLs into short, easy-to-share links with tracking features.
 
-A simple PHP URL shortener application that allows you to:
-- Create short URLs from long ones
-- Track how many times each link is clicked
-- Set expiration dates for links
+✨ Features
+Generate short codes for long URLs (e.g., your.site/abc123)
 
-## Features
+301 redirects for optimal SEO
 
-- URL shortening with 6-character codes
-- Hit counter for each short URL
-- Optional link expiration
-- Simple, clean interface
+Basic click tracking (hit counter)
 
-## Installation
+Optional link expiration
 
-1. Import the `sql/setup.sql` file into your MySQL database
-2. Configure database settings in `config.php`
-3. Upload files to your web server
-4. Ensure your server is configured to route all requests to `redirect.php`
+Simple, clean interface
 
-## Requirements
+No external dependencies
 
-- PHP 7.0+
-- MySQL 5.6+
-- mod_rewrite enabled (for clean URLs)
+🛠️ Tech Stack
+Frontend: HTML5, CSS3
 
-## Configuration
+Backend: PHP
 
-Edit `config.php` to set your database credentials and base URL.
+Database: MySQL
+
+Server: Apache/Nginx compatible
+
+🚀 Quick Setup
+Import sql/setup.sql to your MySQL database
+
+Configure config.php with your database credentials
+
+Upload files to your web server
+
+Perfect for demonstrating core PHP skills, database interactions, and basic web development principles.
